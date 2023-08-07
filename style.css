@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
 
 *{
     box-sizing: border-box;
@@ -15,6 +15,9 @@ body{
     margin: 0;
 }
 
+.icon{
+    border-radius: 50%;
+}
 
 header{
     padding:1rem;
@@ -56,6 +59,8 @@ main{
     background-color: var(--secondary-color);
     position:relative;
     overflow: hidden;
+    border-radius: 3%;
+    border: 1px solid black;
 }
 
 
@@ -86,21 +91,6 @@ main{
 .movie-info span.green{
     color:lightgreen;
 }
-
-.favi{
-    border-radius: 50%;
-  }
-
-  .headin{
-    margin: auto;
-    text-align: center;
-    align-items: center;
-    font-size: large;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-
-  }
 
 .movie-info span.orange{
     color:orange;
@@ -226,7 +216,19 @@ main{
   .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
   }
-  
+  .favi{
+    border-radius: 50%;
+  }
+  .headin{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+  }
   /* Position the close button (top right corner) */
   .overlay .closebtn {
     position: absolute;
