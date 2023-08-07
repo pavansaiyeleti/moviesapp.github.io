@@ -87,6 +87,21 @@ main{
     color:lightgreen;
 }
 
+.favi{
+    border-radius: 50%;
+  }
+
+  .headin{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+  }
+
 .movie-info span.orange{
     color:orange;
 }
